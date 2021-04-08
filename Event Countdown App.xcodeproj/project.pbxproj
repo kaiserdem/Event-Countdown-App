@@ -13,6 +13,10 @@
 		ADE66021261ED13F002BFE1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE6601F261ED13F002BFE1E /* Main.storyboard */; };
 		ADE66023261ED144002BFE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE66022261ED144002BFE1E /* Assets.xcassets */; };
 		ADE66026261ED144002BFE1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE66024261ED144002BFE1E /* LaunchScreen.storyboard */; };
+		ADE6602F261ED58B002BFE1E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE6602E261ED58B002BFE1E /* AppCoordinator.swift */; };
+		ADE66032261ED942002BFE1E /* EventListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE66031261ED942002BFE1E /* EventListCoordinator.swift */; };
+		ADE66035261EDA00002BFE1E /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE66034261EDA00002BFE1E /* EventListViewController.swift */; };
+		ADE66038261EDE0D002BFE1E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE66037261EDE0D002BFE1E /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		ADE66022261ED144002BFE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE66025261ED144002BFE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADE66027261ED144002BFE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE6602E261ED58B002BFE1E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		ADE66031261ED942002BFE1E /* EventListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCoordinator.swift; sourceTree = "<group>"; };
+		ADE66034261EDA00002BFE1E /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		ADE66037261EDE0D002BFE1E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				ADE66019261ED13F002BFE1E /* AppDelegate.swift */,
 				ADE6601B261ED13F002BFE1E /* SceneDelegate.swift */,
 				ADE6601D261ED13F002BFE1E /* ViewController.swift */,
+				ADE6602E261ED58B002BFE1E /* AppCoordinator.swift */,
+				ADE66031261ED942002BFE1E /* EventListCoordinator.swift */,
+				ADE66034261EDA00002BFE1E /* EventListViewController.swift */,
+				ADE66037261EDE0D002BFE1E /* UIColor+Extensions.swift */,
 				ADE6601F261ED13F002BFE1E /* Main.storyboard */,
 				ADE66022261ED144002BFE1E /* Assets.xcassets */,
 				ADE66024261ED144002BFE1E /* LaunchScreen.storyboard */,
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE6602F261ED58B002BFE1E /* AppCoordinator.swift in Sources */,
+				ADE66035261EDA00002BFE1E /* EventListViewController.swift in Sources */,
 				ADE6601E261ED13F002BFE1E /* ViewController.swift in Sources */,
 				ADE6601A261ED13F002BFE1E /* AppDelegate.swift in Sources */,
+				ADE66038261EDE0D002BFE1E /* UIColor+Extensions.swift in Sources */,
 				ADE6601C261ED13F002BFE1E /* SceneDelegate.swift in Sources */,
+				ADE66032261ED942002BFE1E /* EventListCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
