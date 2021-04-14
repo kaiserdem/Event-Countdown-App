@@ -6,9 +6,12 @@
 //
 
 import UIKit
+import CoreData
 
 class EventListViewController: UIViewController {
 
+    private let coreDataManager = CoreDataManager()
+    
     static func instantiate() -> EventListViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: .main)
         let controller = storyboard.instantiateViewController(identifier: "EventListViewController") as! EventListViewController
@@ -19,6 +22,9 @@ class EventListViewController: UIViewController {
         super.viewDidLoad()
         
         setupViews()
+        
+        coreDataManager.saveEvent(name: "New YEAR", date: Date(), image: #imageLiteral(resourceName: "Unknown"))
+        print(coreDataManager.fetchEvents())
     }
     
     private func setupViews() {
