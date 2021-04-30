@@ -30,9 +30,24 @@
                     <view key="view" contentMode="scaleToFill" id="wnF-3u-k5g">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="P0R-20-liY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="BzQ-7U-gPe"/>
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BzQ-7U-gPe" firstAttribute="trailing" secondItem="P0R-20-liY" secondAttribute="trailing" id="dFW-SO-Dca"/>
+                            <constraint firstItem="BzQ-7U-gPe" firstAttribute="bottom" secondItem="P0R-20-liY" secondAttribute="bottom" id="eT8-FK-xmV"/>
+                            <constraint firstItem="P0R-20-liY" firstAttribute="leading" secondItem="BzQ-7U-gPe" secondAttribute="leading" id="l4C-v3-qI3"/>
+                            <constraint firstItem="P0R-20-liY" firstAttribute="top" secondItem="BzQ-7U-gPe" secondAttribute="top" id="mrn-55-UiD"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="P0R-20-liY" id="bZc-Gi-F5M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fwg-Pm-VyE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -40,8 +55,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

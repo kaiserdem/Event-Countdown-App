@@ -23,6 +23,8 @@
 		ADE66035261EDA00002BFE1E /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE66034261EDA00002BFE1E /* EventListViewController.swift */; };
 		ADE66038261EDE0D002BFE1E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE66037261EDE0D002BFE1E /* UIColor+Extensions.swift */; };
 		ADE66044261EE1D4002BFE1E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE66043261EE1D4002BFE1E /* CoreDataManager.swift */; };
+		ADE94D6F263BDD85002BE20A /* TitleSubtitleCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE94D6E263BDD85002BE20A /* TitleSubtitleCellViewModel.swift */; };
+		ADE94D73263BDE03002BE20A /* TitleSubtitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE94D72263BDE03002BE20A /* TitleSubtitleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		ADE66034261EDA00002BFE1E /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
 		ADE66037261EDE0D002BFE1E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		ADE66043261EE1D4002BFE1E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		ADE94D6E263BDD85002BE20A /* TitleSubtitleCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSubtitleCellViewModel.swift; sourceTree = "<group>"; };
+		ADE94D72263BDE03002BE20A /* TitleSubtitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSubtitleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			children = (
 				AD3C06BE26281314002843ED /* EventListViewModel.swift */,
 				AD3C06CA26281C38002843ED /* AddEventViewModel.swift */,
+				ADE94D6E263BDD85002BE20A /* TitleSubtitleCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 		ADE66018261ED13F002BFE1E /* Event Countdown App */ = {
 			isa = PBXGroup;
 			children = (
+				ADE94D71263BDDC6002BE20A /* Views */,
 				AD3C06CD262966E1002843ED /* ViewModels */,
 				ADE6603A261EE060002BFE1E /* Extensions */,
 				ADE6603B261EE070002BFE1E /* Controllers */,
@@ -127,6 +133,14 @@
 				AD3C06C1262814D5002843ED /* AddEventCoordinator.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		ADE94D71263BDDC6002BE20A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ADE94D72263BDE03002BE20A /* TitleSubtitleCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE94D6F263BDD85002BE20A /* TitleSubtitleCellViewModel.swift in Sources */,
 				AD3C06C826281AB5002843ED /* UIViewController+Extension.swift in Sources */,
 				ADE6602F261ED58B002BFE1E /* AppCoordinator.swift in Sources */,
 				ADE66035261EDA00002BFE1E /* EventListViewController.swift in Sources */,
@@ -210,6 +225,7 @@
 				ADE6601C261ED13F002BFE1E /* SceneDelegate.swift in Sources */,
 				AD3C06C5262817BC002843ED /* AddEventViewController.swift in Sources */,
 				AD3C06BF26281314002843ED /* EventListViewModel.swift in Sources */,
+				ADE94D73263BDE03002BE20A /* TitleSubtitleCell.swift in Sources */,
 				ADE66044261EE1D4002BFE1E /* CoreDataManager.swift in Sources */,
 				ADE66032261ED942002BFE1E /* EventListCoordinator.swift in Sources */,
 			);
